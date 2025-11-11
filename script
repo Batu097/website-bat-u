@@ -1,1 +1,4 @@
-print("hello Wurld")
+import platform
+
+s = platform.version()
+print(s)
